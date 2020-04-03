@@ -5,14 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "docs:dev": "vuepress dev docs",
+    "docs:dev": "sudo vuepress dev docs",
     "docs:build": "vuepress build docs",
     "deploy": "bash deploy.sh"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run lint"
-    }
   },
   "repository": {
     "type": "git",
