@@ -22,14 +22,17 @@ module.exports = {
                 {
                     title: 'Framework',
                     collapsable: false,
-                    sidebarDepth: 2,
-                    children: []
+                    children: [
+                        "devops-webpack",
+                    ]
                 },
                 {
                     title: 'DevOps',
                     collapsable: false,
                     sidebarDepth: 2,
-                    children: []
+                    children: [
+
+                    ]
                 },
                 {
                     title: 'JavaScript',
@@ -68,6 +71,20 @@ module.exports = {
                     children: []
                 },
             ]
-        }
-    }
+        },
+        lastUpdated: "更新时间",
+        docsDir: "docs",
+        editLinks: true,
+    },
+    plugins: [
+        [
+            "@vuepress/pwa",
+            {
+                serviceWorker: true,
+                updatePopup: true,
+            },
+        ],
+        ["@vuepress/medium-zoom", true],
+        ["@vuepress/back-to-top", true],
+    ],
 };
