@@ -73,8 +73,7 @@ module.exports = {
             ]
         },
         lastUpdated: "更新时间",
-        docsDir: "docs",
-        editLinks: true,
+        docsDir: "docs"
     },
     plugins: [
         [
