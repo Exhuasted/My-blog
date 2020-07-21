@@ -23,7 +23,8 @@ module.exports = {
                     title: 'Framework',
                     collapsable: false,
                     children: [
-                        "devops-webpack",
+                        "devops-webpack-step_01",
+                        "devops-webpack-step_02"
                     ]
                 },
                 {
