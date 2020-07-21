@@ -20,7 +20,7 @@ module.exports = {
         sidebar: {
             "/blog/": [
                 {
-                    title: 'Framework',
+                    title: 'DevOps',
                     collapsable: false,
                     children: [
                         "devops-webpack-step_01",
@@ -28,7 +28,7 @@ module.exports = {
                     ]
                 },
                 {
-                    title: 'DevOps',
+                    title: 'Framework',
                     collapsable: false,
                     sidebarDepth: 2,
                     children: [
