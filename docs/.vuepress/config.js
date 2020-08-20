@@ -24,7 +24,8 @@ module.exports = {
                     collapsable: false,
                     children: [
                         "devops-webpack-step_01",
-                        "devops-webpack-step_02"
+                        "devops-webpack-step_02",
+                        "devops-webpack-step_03"
                     ]
                 },
                 {
