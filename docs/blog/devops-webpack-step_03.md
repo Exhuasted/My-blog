@@ -108,7 +108,7 @@ class SingelEnrtyPlugin {
 - 经过 dobuild 之后，我们的任何模块都被转成了标准的 js 模块，那么下面我们就可以编译 js 了。
 
 ```js
-doBuild(options, compilation, resolver, fs, callback){
+doBuild(options, compilation, resolver, fs, callback) {
   const loaderContext = this.createLoaderContext(
   	resolver,
     options,
