@@ -58,7 +58,9 @@ module.exports = {
                     title: '网络协议',
                     collapsable: false,
                     sidebarDepth: 2,
-                    children: []
+                    children: [
+                        "osi-http"
+                    ]
                 },
                 {
                     title: '运维相关',
