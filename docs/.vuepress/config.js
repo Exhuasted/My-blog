@@ -25,7 +25,8 @@ module.exports = {
                     children: [
                         "devops-webpack-step_01",
                         "devops-webpack-step_02",
-                        "devops-webpack-step_03"
+                        "devops-webpack-step_03",
+                        "git"
                     ]
                 },
                 {
